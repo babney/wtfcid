@@ -1,4 +1,5 @@
 source :gemcutter
 gem 'sinatra'
 gem 'json'
-gem 'active_record'
+gem 'activerecord'
+gem 'sqlite3'
