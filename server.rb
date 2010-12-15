@@ -1,6 +1,9 @@
 require "rubygems"
 require "sinatra"
+require "erb"
+require "json"
 
 get "/" do
-  "Hello world"
+  @message = "You can fucking save the Internet"
+  erb :"index.html"
 end
